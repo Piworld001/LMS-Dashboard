@@ -2,7 +2,7 @@
 
 A responsive frontend for a Learning Management System, built as the Week 8 React capstone for the Master-Tech Python Full Stack Bootcamp.
 
-**Live demo:** [PASTE YOUR LIVE URL HERE]
+**Live demo:** [(https://lms-dashboard-lake.vercel.app/)]
 
 ![![alt text](image.png)](src/assets/image.png)
 
