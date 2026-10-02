@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Light theme: flips the slate palette so every existing class adapts.
+   The "light" class is added to <html> by the toggle button. */
+html.light {
+  --color-slate-950: #f1f5f9;
+  --color-slate-900: #ffffff;
+  --color-slate-800: #e2e8f0;
+  --color-slate-700: #cbd5e1;
+  --color-slate-500: #64748b;
+  --color-slate-400: #475569;
+  --color-slate-300: #334155;
+  --color-slate-200: #1e293b;
+  --color-slate-100: #0f172a;
+}
+
+/* Coloured buttons keep white text in both themes */
+html.light .bg-indigo-600,
+html.light .bg-red-600 {
+  color: #fff;
+}
